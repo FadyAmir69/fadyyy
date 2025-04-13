@@ -1,4 +1,6 @@
+import 'package:firebase_auth/firebase_auth.dart';
 import 'package:flutter/material.dart';
+import 'package:google_sign_in/google_sign_in.dart';
 
 class HomeScreen extends StatelessWidget {
   const HomeScreen({super.key});
@@ -8,7 +10,23 @@ class HomeScreen extends StatelessWidget {
     return Scaffold(
       backgroundColor: Colors.white, // لون الخلفية الفاتح
       appBar: AppBar(
-        title: Text("Fitness App 🏋️‍♂️" , style: TextStyle(color: Colors.white  , fontSize: 25 ) ), // عنوان احترافي مع أيقونة
+        title: Text(
+          "Fitness App 🏋️‍♂️",
+          style: TextStyle(color: Colors.white, fontSize: 25),
+        ), // عنوان احترافي مع أيقونة
+        actions: [
+          IconButton(
+            onPressed: () async {
+              GoogleSignIn googleSignIn = GoogleSignIn();
+              googleSignIn.disconnect();
+              await FirebaseAuth.instance.signOut();
+              Navigator.of(
+                context,
+              ).pushNamedAndRemoveUntil("login", (route) => false);
+            },
+            icon: Icon(Icons.exit_to_app),
+          ),
+        ],
         centerTitle: true, // جعل العنوان في المنتصف
         backgroundColor: Colors.blue[400], // لون شريط العنوان
       ),
@@ -56,7 +74,7 @@ class HomeScreen extends StatelessWidget {
                 ),
               ),
               onPressed: () {
-                Navigator.pushNamed(context, "/workout");
+                Navigator.pushNamed(context, "workout");
               },
             ),
             SizedBox(height: 15),
@@ -76,7 +94,7 @@ class HomeScreen extends StatelessWidget {
                 ),
               ),
               onPressed: () {
-                Navigator.pushNamed(context, "/diet_plan");
+                Navigator.pushNamed(context, "diet_plan");
               },
             ),
           ],

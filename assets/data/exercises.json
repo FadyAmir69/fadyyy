@@ -1,0 +1,52 @@
+{
+    "Chest": [
+      {
+        "name": "Bench Presses",
+        "images": ["assets/images/exGroup/Chest/ch1.jpg", "assets/images/exGroup/Chest/ch1.jpg"],
+        "description": "Push the barbell upwards while lying on a bench."
+      },
+      {
+        "name": "Incline Presses",
+        "images": ["assets/images/exGroup/Chest/ch1.jpg"],
+        "description": "Targets upper chest. Press bar upward on incline bench."
+      },
+      {
+        "name": "Dumbbell presses",
+        "images": ["assets/images/exGroup/Chest/ch1.jpg"],
+        "description": "Targets upper chest. Press bar upward on incline bench."
+      },
+      {
+        "name": "Pec Deck Flies",
+        "images": ["assets/images/exGroup/Chest/ch1.jpg"],
+        "description": "Targets upper chest. Press bar upward on incline bench."
+      },
+      {
+        "name": "Cable Crossover Flys",
+        "images": ["assets/images/exGroup/Chest/ch1.jpg"],
+        "description": "Targets upper chest. Press bar upward on incline bench."
+      },
+      {
+        "name": "Push-Ups",
+        "images": ["assets/images/exGroup/Chest/ch1.jpg"],
+        "description": "Targets upper chest. Press bar upward on incline bench."
+      },
+      {
+        "name": "Parallel Bar Dips",
+        "images": ["assets/images/exGroup/Chest/ch1.jpg"],
+        "description": "Targets upper chest. Press bar upward on incline bench."
+      },
+      {
+        "name": "Incline Dumbbell Presses",
+        "images": ["assets/images/exGroup/Chest/ch1.jpg"],
+        "description": "Targets upper chest. Press bar upward on incline bench."
+      }
+    ],
+    "Back": [
+      {
+        "name": "Pull Ups",
+        "images": ["assets/images/exGroup/Chest/ch1.jpg"],
+        "description": "Hang from a bar and pull yourself up."
+      }
+    ]
+  }
+  

@@ -207,7 +207,7 @@ class _LoginState extends State<Login> {
                     child: Row(
                       mainAxisAlignment: MainAxisAlignment.center,
                       children: [
-                        Image.asset("images/googleP.png", width: 22),
+                        Image.asset("assets/images/loginP/googleP.png", width: 22),
                         const SizedBox(width: 10),
                         const Text(
                           "Login with Google",

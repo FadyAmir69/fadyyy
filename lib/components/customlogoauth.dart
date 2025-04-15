@@ -6,11 +6,11 @@ class CustomLogoAuth extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Container(
-      width: double.infinity,         // ✅ بعرض الشاشة بالكامل
-      height: 200,                    // ✅ ارتفاع مناسب
+      width: double.infinity, // ✅ بعرض الشاشة بالكامل
+      height: 200, // ✅ ارتفاع مناسب
       child: Image.asset(
-        "images/loginPhoto.png",
-        fit: BoxFit.cover,            // ✅ تغطي العرض وتقص الزايد من الصورة لو في
+        "assets/images/loginP/loginPhoto.png",
+        fit: BoxFit.cover, // ✅ تغطي العرض وتقص الزايد من الصورة لو في
       ),
     );
   }

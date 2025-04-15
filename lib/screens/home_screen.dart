@@ -39,7 +39,7 @@ class HomeScreen extends StatelessWidget {
             CircleAvatar(
               radius: 120,
               backgroundImage: AssetImage(
-                "images/logo2.jpg",
+                "assets/images/homeP/logo2.jpg",
               ), // ضع صورة احترافية هنا
             ),
             SizedBox(height: 150), // مسافة بين العناصر

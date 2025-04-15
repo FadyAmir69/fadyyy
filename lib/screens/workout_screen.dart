@@ -3,13 +3,29 @@ import 'exercise_list_screen.dart'; // صفحة تمارين العضلة الم
 
 class WorkoutScreen extends StatelessWidget {
   final List<Map<String, dynamic>> muscles = [
-    {"name": "Chest", "image": "images/chest.png", "exercises": 37},
-    {"name": "Back", "image": "images/back.png", "exercises": 25},
-    {"name": "Biceps", "image": "images/biceps.png", "exercises": 24},
-    {"name": "Forearms", "image": "images/forearms.png", "exercises": 4},
-    {"name": "Abs", "image": "images/abs.png", "exercises": 28},
-    {"name": "Calf", "image": "images/calf.png", "exercises": 9},
-    {"name": "Legs", "image": "images/legs.png", "exercises": 36},
+    {
+      "name": "Chest",
+      "image": "assets/images/bodyMuc/chest.png",
+      "exercises": 37,
+    },
+    {
+      "name": "Back",
+      "image": "assets/images/bodyMuc//back.png",
+      "exercises": 25,
+    },
+    {
+      "name": "Biceps",
+      "image": "assets/images/bodyMuc/biceps.png",
+      "exercises": 24,
+    },
+
+    {"name": "Abs", "image": "assets/images/bodyMuc/abs.png", "exercises": 28},
+
+    {
+      "name": "Legs",
+      "image": "assets/images/bodyMuc/legs.png",
+      "exercises": 36,
+    },
   ];
 
   WorkoutScreen({super.key});
